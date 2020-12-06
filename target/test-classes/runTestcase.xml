@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="API DEMO" thread-count="3" parallel="test">
+
+
+    <test name="Run on CHROME">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="Testcase.Test02_Method2"/>
+        </classes>
+    </test>
+
+</suite>
