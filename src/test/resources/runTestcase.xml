@@ -5,7 +5,12 @@
     <test name="Run on CHROME">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="Testcase.Test02_Method2"/>
+            <class name="testCases.Register"/>
+            <class name="testCases.ParentLogin"/>
+            <class name="testCases.ParentSetupPasscode"/>
+            <class name="testCases.ParentLoginPasscode"/>
+            <class name="testCases.ParentAddChild"/>
+            <class name="testCases.ParentAddAvatar"/>
         </classes>
     </test>
 
